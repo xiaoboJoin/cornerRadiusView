@@ -14,6 +14,7 @@
 		B358B64B1A19967C00AB740D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B358B64A1A19967C00AB740D /* Images.xcassets */; };
 		B358B64E1A19967C00AB740D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B358B64C1A19967C00AB740D /* LaunchScreen.xib */; };
 		B358B65A1A19967C00AB740D /* CornerRadiusViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B358B6591A19967C00AB740D /* CornerRadiusViewTests.m */; };
+		B358B6641A1997CE00AB740D /* backgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B358B6631A1997CE00AB740D /* backgroundImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		B358B6531A19967C00AB740D /* CornerRadiusViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CornerRadiusViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B358B6581A19967C00AB740D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B358B6591A19967C00AB740D /* CornerRadiusViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CornerRadiusViewTests.m; sourceTree = "<group>"; };
+		B358B6631A1997CE00AB740D /* backgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		B358B63D1A19967C00AB740D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B358B6631A1997CE00AB740D /* backgroundImage.png */,
 				B358B63E1A19967C00AB740D /* Info.plist */,
 				B358B63F1A19967C00AB740D /* main.m */,
 			);
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B358B6491A19967C00AB740D /* Main.storyboard in Resources */,
+				B358B6641A1997CE00AB740D /* backgroundImage.png in Resources */,
 				B358B64E1A19967C00AB740D /* LaunchScreen.xib in Resources */,
 				B358B64B1A19967C00AB740D /* Images.xcassets in Resources */,
 			);

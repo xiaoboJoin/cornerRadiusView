@@ -16,6 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self.myView.layer setCornerRadius:CGRectGetHeight([self.myView bounds]) / 2];
+    self.myView.layer.masksToBounds = YES;
+    self.myView.layer.borderWidth = 5;
+    self.myView.layer.borderColor = [[UIColor whiteColor] CGColor];
+    self.myView.layer.contents = (id)[[UIImage imageNamed:@"backgroundImage.png"] CGImage];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
